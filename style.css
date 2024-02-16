@@ -11,7 +11,9 @@
   --Very-Dark-Blue: hsl(216, 12%, 8%);
 }
 
-*, *::after, *::before {
+*,
+ *::after, 
+ *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -39,7 +41,8 @@ html {
     border-radius: 50%;
   }
 
-  h1, h2 {
+  h1, 
+  h2 {
     margin-top: 1em;
     margin-bottom: .5em;
     font-size: 1.7rem;
@@ -99,9 +102,9 @@ html {
   }
 
   .rating-btn {
-    background-color: var(--Dark-Gray);
+    background-color: var(--Medium-Grey);
     color: var(--Light-Grey); 
-    padding: 1em 1.5em; 
+    padding: 1.2em 1.6em; 
     border: none;
     border-radius: 50%;
     font-weight: 700;
